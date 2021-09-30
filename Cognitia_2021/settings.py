@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-3(0u7=^wbo=4fwt26)o293to^9o#8q3r5!*we)pi9&asko99)+
 DEBUG = True
 CORS_ORIGIN_ALLOW_ALL = True
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost',
-                 '127.0.0.1', 'cognitia2021.herokuapp.com']
+                 '127.0.0.1', 'cognitia21.herokuapp.com']
 
 
 # Application definition
@@ -106,12 +106,6 @@ DATABASES = {
 }
 
 REST_FRAMEWORK = {
-    'DEFAULT_RENDERER_CLASSES': (
-        'rest_framework.renderers.JSONRenderer',
-    ),
-    'DEFAULT_PARSER_CLASSES': (
-        'rest_framework.parsers.JSONParser',
-    ),
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
 
